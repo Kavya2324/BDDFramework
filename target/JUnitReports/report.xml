@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="30.389">
+    <testcase classname="Checkout Adidas shoes" name="Successful checkout of Adidas shoes" time="29.789">
+        <system-out><![CDATA[Given the user is on the Nopecomerce homepage...............................passed
+When the user clicks the signpage...........................................passed
+Then the user enters a valid username & password............................passed
+And the user clicks the login button and be on the home page................passed
+Then the user select the shoes product page from apparel flyout.............passed
+And the user select the Adidas shoes........................................passed
+Then the user selects size and click on add t cart..........................passed
+Then the user should able to see success message............................passed
+And the user clicks on the shopping cart link...............................passed
+Then the user select the T&C check box and clicks the checkout button.......passed
+And the user enters the shipping details....................................passed
+Then the user clicks on the continue buttons................................passed
+And the user should able to see order success message.......................passed
+Then the user clicks on the orde completed continue button..................passed
+]]></system-out>
+    </testcase>
+</testsuite>

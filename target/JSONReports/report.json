@@ -1,0 +1,197 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-04T15:05:28.677Z",
+        "line": 4,
+        "name": "Successful checkout of Adidas shoes",
+        "description": "",
+        "id": "checkout-adidas-shoes;successful-checkout-of-adidas-shoes",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9134166500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the Nopecomerce homepage",
+            "match": {
+              "location": "org.ktn.stepdefinition.AdidaShoesCheckOutStepDefinition.the_user_is_on_the_nopecomerce_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2740836300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks the signpage",
+            "match": {
+              "location": "org.ktn.stepdefinition.AdidaShoesCheckOutStepDefinition.the_user_clicks_the_signpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 640633100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user enters a valid username \u0026 password",
+            "match": {
+              "location": "org.ktn.stepdefinition.AdidaShoesCheckOutStepDefinition.the_user_enters_a_valid_username_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1009957600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks the login button and be on the home page",
+            "match": {
+              "location": "org.ktn.stepdefinition.AdidaShoesCheckOutStepDefinition.the_user_clicks_the_button_and_be_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1209827900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user select the shoes product page from apparel flyout",
+            "match": {
+              "location": "org.ktn.stepdefinition.AdidaShoesCheckOutStepDefinition.the_user_select_the_shoes_product_page_from_apparel_flyout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1003580100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user select the Adidas shoes",
+            "match": {
+              "location": "org.ktn.stepdefinition.AdidaShoesCheckOutStepDefinition.the_user_select_the_adidas_shoes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 548686700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user selects size and click on add t cart",
+            "match": {
+              "location": "org.ktn.stepdefinition.AdidaShoesCheckOutStepDefinition.the_user_selects_size_and_click_on_add_t_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1193894000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should able to see success message",
+            "match": {
+              "location": "org.ktn.stepdefinition.AdidaShoesCheckOutStepDefinition.the_user_should_able_to_see_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1665057200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user clicks on the shopping cart link",
+            "match": {
+              "location": "org.ktn.stepdefinition.AdidaShoesCheckOutStepDefinition.the_user_clicks_on_the_shopping_cart_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1570237100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user select the T\u0026C check box and clicks the checkout button",
+            "match": {
+              "location": "org.ktn.stepdefinition.AdidaShoesCheckOutStepDefinition.the_user_select_the_t_c_check_box_and_clicks_the_checkout_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4278488400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user enters the shipping details",
+            "match": {
+              "location": "org.ktn.stepdefinition.AdidaShoesCheckOutStepDefinition.the_user_enters_the_shipping_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3015727000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user clicks on the continue buttons",
+            "match": {
+              "location": "org.ktn.stepdefinition.AdidaShoesCheckOutStepDefinition.the_user_clicks_on_the_continue_buttons()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 885964100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user should able to see order success message",
+            "match": {
+              "location": "org.ktn.stepdefinition.AdidaShoesCheckOutStepDefinition.the_user_should_able_to_see_order_success_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 645113100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user clicks on the orde completed continue button",
+            "match": {
+              "location": "org.ktn.stepdefinition.AdidaShoesCheckOutStepDefinition.the_user_clicks_on_the_orde_completed_continue_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AdidasShoesCheckout"
+          }
+        ]
+      }
+    ],
+    "name": "Checkout Adidas shoes",
+    "description": "",
+    "id": "checkout-adidas-shoes",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/AdidasShoesCheckOut.feature",
+    "tags": []
+  }
+]
